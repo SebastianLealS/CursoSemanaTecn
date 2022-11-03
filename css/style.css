@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.conteiner{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.btn-outline:hover{
+    background: auto;
+    color: #000;
+}
+
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar a{
+    color: #000;
+}
+
+#navbar .logo{
+    float: left;
+    padding-top: 12px;
+}
+
+#navbar img{
+    height: 40px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#proyectos{
+    padding: 80px 0;
+}
+
+.proyectos-row{
+    display: flex;
+}
+
+.proyectos-row img{
+    width: 100%;
+}
+
+#perfil{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.perfil-row{
+    display: flex;
+}
+
+.perfil-row-experiencia{
+    width: 50%;
+    padding-left: 50px;
+}
+
