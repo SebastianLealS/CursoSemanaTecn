@@ -100,7 +100,7 @@ a{
 }
 
 #showcase {
-	background: url('/img/showcase.jpg');
+	background: url('img/showcase.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
