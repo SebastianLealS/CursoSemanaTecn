@@ -99,6 +99,20 @@ a{
     text-align: center;
 }
 
+#showcase {
+	background: url('/img/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#showcase .btn {
+	margin-top: 250px;
+}
+
 #proyectos{
     padding: 80px 0;
 }

@@ -1,0 +1,25 @@
+#projects,
+#perfil,
+#contact {
+	padding: 50px 0;
+}
+
+#perfil p,
+#perfil h4 {
+	text-align: center;
+}
+
+.perfil-row {
+	flex-wrap: wrap;
+}
+
+.perfil-row-experience,
+.perfil-row-me {
+	width: 100%;
+	padding-left: 0;
+}
+
+/* Contact */
+#contact p {
+	font-size: 14px;
+}
